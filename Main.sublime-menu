@@ -4,7 +4,7 @@
     "children":
     [
         { "id": "wrap" },
-        { "command": "hash_syntax" }
+        { "command": "revert_hash_syntax" }
     ]
 }
 ]

@@ -1,5 +1,5 @@
 [
   {
-    "keys": ["super+ctrl+h"], "command": "hash_syntax"
+    "keys": ["super+ctrl+shift+h"], "command": "revert_hash_syntax"
   }
 ]

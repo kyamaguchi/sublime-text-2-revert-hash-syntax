@@ -1,12 +1,20 @@
-= Sublime Text Ruby 1.9 Hash Converter Package
+= Sublime Text Ruby 1.9 Hash Reverter Package
 
-This plugin converts Ruby 1.8 hash rocket (=>) syntax to Ruby 1.9 colon sytax for
+This plugin reverts Ruby 1.8 hash rocket (=>) syntax from Ruby 1.9 colon sytax for
 [[http://sublimetext.com/2|Sublime Text 2]].
 
 Please use [[http://wbond.net/sublime_packages/package_control|Package Control]]
 for installation.
 
-Default keybinding is cmd + ctrl + h
+Default keybinding is cmd + ctrl + shift + h
+
+This Package is copied from Ruby 1.9 Hash Converter Package
+[[https://github.com/iltempo/sublime-text-2-hash-syntax]]
+
+Default region without selection is the line(s) the cursor(s) is(are).
+Not whole file.
+
+To replace whole file, plese Select All.
 
 == License
 

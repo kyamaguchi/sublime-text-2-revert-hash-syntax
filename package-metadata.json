@@ -1,1 +1,1 @@
-{"url": "https://github.com/iltempo/sublime-text-2-hash-syntax", "version": "2012.05.31.03.00.56", "description": "Sublime Text 2 package for converting Ruby 1.8 hashes to Ruby 1.9 syntax"}
+{"url": "https://github.com/kyamaguchi/sublime-text-2-revert-hash-syntax", "version": "2013.03.20.12.00.00", "description": "Sublime Text 2 package for reverting Ruby 1.8 hashes from Ruby 1.9 syntax"}
