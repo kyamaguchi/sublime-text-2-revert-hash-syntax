@@ -1,0 +1,6 @@
+[
+  {
+      "caption": "Ruby 1.9 Hash Reverter: revert_hash_syntax",
+      "command": "revert_hash_syntax"
+  }
+]
