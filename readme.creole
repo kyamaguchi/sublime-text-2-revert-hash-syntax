@@ -18,9 +18,9 @@ To replace whole file, plese Select All.
 
 == License
 
-All of Sublime Hash Syntax is licensed under the MIT license.
+All of Sublime Revert Hash Syntax is licensed under the MIT license.
 
-  Copyright (c) 2012 Alexander Greim <alexxx@iltempo.de>
+  Copyright (c) 2013 Kazuho Yamaguchi <kzh.yap@gmail.com>
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
