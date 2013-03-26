@@ -1,0 +1,23 @@
+# Source
+Example::Application.config.session_store :cookie_store, key: '_hamltest_session'
+
+      format.json do
+        render json: @samples
+      end
+
+render json:@samples
+render json:  @samples
+hoge(one: 1, two:2, three:'3', four: "4")
+hoge one: 1, two:2, three:'3', four: "4"
+
+# Result
+Example::Application.config.session_store :cookie_store, :key => '_hamltest_session'
+
+      format.json do
+        render :json => @samples
+      end
+
+render :json => @samples
+render :json =>  @samples
+hoge(:one => 1, :two => 2, :three => '3', :four => "4")
+hoge :one => 1, :two => 2, :three => '3', :four => "4"
