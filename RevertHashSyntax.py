@@ -10,7 +10,7 @@ def old_style_hash(matchobj):
     if spaces < 1:
         spaces = 1
 
-    return ":%s =>%s" % (matchobj.group(1), spaces * ' ')
+    return ":%s =>%s%s" % (matchobj.group(1), spaces * ' ', matchobj.group(3))
 
 class RevertHashSyntaxCommand(sublime_plugin.TextCommand):
     def run(self, edit):
@@ -25,6 +25,6 @@ class RevertHashSyntaxCommand(sublime_plugin.TextCommand):
         # Get the selected text
         s = self.view.substr(region)
         # Transform Ruby 1.9 hash syntax to 1.8
-        s = re.sub(r'([a-zA-Z_0-9]+)\:(\s*)', old_style_hash, s)
+        s = re.sub(r'([a-zA-Z_0-9]+)\:(\s*)([^:])', old_style_hash, s)
         # Replace the selection with transformed text
         self.view.replace(edit, region, s)
